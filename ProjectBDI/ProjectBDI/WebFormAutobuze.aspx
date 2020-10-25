@@ -41,6 +41,19 @@
             <SortedDescendingHeaderStyle BackColor="#33276A" />
           </asp:GridView>
           <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [Autobuze]"></asp:SqlDataSource>
+    <div>
+        <asp:Button ID="Button1" runat="server" Text="Creare Procedura" OnClick="Button1_Click" />
+               &nbsp;&nbsp;     &nbsp;&nbsp;
+         </div>
+    
+          <p>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+         <asp:Button ID="Button2" runat="server" Text="Apelare Procedura" OnClick="Button2_Click" />
+          </p>
+          <p>
+        <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" BackColor="#66FFCC" ForeColor="Black" Height="132px" Width="463px"></asp:TextBox>
+          </p>
+    
     </form>
 </body>
 </html>
