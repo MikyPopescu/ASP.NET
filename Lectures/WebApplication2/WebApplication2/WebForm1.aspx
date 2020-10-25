@@ -52,13 +52,15 @@
         <p>
             <asp:TextBox ID="tbError" runat="server" BackColor="#FFFFCC" Height="97px" TextMode="MultiLine" Width="423px"></asp:TextBox>
         </p>
-        <asp:DropDownList ID="selectGraph" runat="server" AutoPostBack="True" Height="16px" OnSelectedIndexChanged="selectGraph_SelectedIndexChanged" Width="322px">
+        <asp:DropDownList ID="selectGraph" runat="server" AutoPostBack="True" Height="62px" OnSelectedIndexChanged="selectGraph_SelectedIndexChanged" Width="278px">
             <asp:ListItem>Selectati Tip Grafic</asp:ListItem>
             <asp:ListItem>Bare</asp:ListItem>
             <asp:ListItem>Pie</asp:ListItem>
             <asp:ListItem>Linie</asp:ListItem>
             <asp:ListItem>3D</asp:ListItem>
         </asp:DropDownList>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnProcedura" runat="server" OnClick="btnProcedura_Click" Text="Proceduri" />
     </form>
 </body>
 </html>

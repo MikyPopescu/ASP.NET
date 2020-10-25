@@ -60,5 +60,10 @@ namespace WebApplication2
             Cache["BnkCache"] = dataSet;
             Response.Redirect("WebForm2.aspx?tip=" + selectGraph.SelectedItem.Text);
         }
+
+        protected void btnProcedura_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm3.aspx");
+        }
     }
 }
