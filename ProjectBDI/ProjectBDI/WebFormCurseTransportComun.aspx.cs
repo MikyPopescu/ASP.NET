@@ -19,5 +19,11 @@ namespace ProjectBDI
         {
             Response.Redirect("~/WebFormAutobuze.aspx");
         }
+
+        //travelers
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/WebFormCalatori.aspx");
+        }
     }
 }

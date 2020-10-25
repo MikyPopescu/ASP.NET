@@ -57,3 +57,5 @@ D:\Projects\asp\ProjectBDI\ProjectBDI\obj\Debug\ProjectBDI.csproj.CoreCompileInp
 D:\Projects\asp\ProjectBDI\ProjectBDI\obj\Debug\ProjectBDI.csproj.CopyComplete
 D:\Projects\asp\ProjectBDI\ProjectBDI\obj\Debug\ProjectBDI.dll
 D:\Projects\asp\ProjectBDI\ProjectBDI\obj\Debug\ProjectBDI.pdb
+D:\Projects\asp\ProjectBDI\ProjectBDI\bin\ZedGraph.dll
+D:\Projects\asp\ProjectBDI\ProjectBDI\bin\ZedGraph.Web.dll

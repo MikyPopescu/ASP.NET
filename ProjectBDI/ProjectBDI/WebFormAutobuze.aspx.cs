@@ -14,9 +14,17 @@ namespace ProjectBDI
 
         }
 
+        //calatori
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/WebFormCurseTransportComun.aspx");
         }
+
+        //curse
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/WebFormCalatori.aspx"); 
+        }
     }
+    
 }

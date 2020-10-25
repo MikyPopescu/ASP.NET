@@ -60,6 +60,14 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ZedGraph, Version=5.1.2.878, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Miky\Downloads\2_GridViewChart\Bin\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph.Web, Version=5.1.2.880, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Miky\Downloads\2_GridViewChart\Bin\ZedGraph.Web.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -69,7 +77,10 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="WebFormAutobuze.aspx" />
+    <Content Include="WebFormCalatori.aspx" />
     <Content Include="WebFormCurseTransportComun.aspx" />
+    <Content Include="ZedGraph.dll" />
+    <Content Include="ZedGraph.Web.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +90,13 @@
     </Compile>
     <Compile Include="WebFormAutobuze.aspx.designer.cs">
       <DependentUpon>WebFormAutobuze.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCalatori.aspx.cs">
+      <DependentUpon>WebFormCalatori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCalatori.aspx.designer.cs">
+      <DependentUpon>WebFormCalatori.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebFormCurseTransportComun.aspx.cs">
       <DependentUpon>WebFormCurseTransportComun.aspx</DependentUpon>
