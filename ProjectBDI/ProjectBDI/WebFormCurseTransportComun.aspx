@@ -18,7 +18,7 @@
            <asp:LinkButton ID="LinkButton1" runat="server">Calatori</asp:LinkButton>
             &nbsp;&nbsp;
             &nbsp;&nbsp;
-            <asp:LinkButton ID="LinkButton2" runat="server">Autobuze</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Autobuze</asp:LinkButton>
             </div>
           
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="id_cursa" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Height="376px" Width="611px">

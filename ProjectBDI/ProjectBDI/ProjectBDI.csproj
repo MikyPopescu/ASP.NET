@@ -68,10 +68,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="WebFormAutobuze.aspx" />
     <Content Include="WebFormCurseTransportComun.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebFormAutobuze.aspx.cs">
+      <DependentUpon>WebFormAutobuze.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormAutobuze.aspx.designer.cs">
+      <DependentUpon>WebFormAutobuze.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebFormCurseTransportComun.aspx.cs">
       <DependentUpon>WebFormCurseTransportComun.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
