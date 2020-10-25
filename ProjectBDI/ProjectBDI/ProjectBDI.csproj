@@ -79,6 +79,7 @@
     <Content Include="WebFormAutobuze.aspx" />
     <Content Include="WebFormCalatori.aspx" />
     <Content Include="WebFormCurseTransportComun.aspx" />
+    <Content Include="WebFormGrafic.aspx" />
     <Content Include="ZedGraph.dll" />
     <Content Include="ZedGraph.Web.dll" />
   </ItemGroup>
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="WebFormCurseTransportComun.aspx.designer.cs">
       <DependentUpon>WebFormCurseTransportComun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormGrafic.aspx.cs">
+      <DependentUpon>WebFormGrafic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormGrafic.aspx.designer.cs">
+      <DependentUpon>WebFormGrafic.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

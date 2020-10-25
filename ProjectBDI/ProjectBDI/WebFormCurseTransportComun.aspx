@@ -19,6 +19,9 @@
             &nbsp;&nbsp;
             &nbsp;&nbsp;
             <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Autobuze</asp:LinkButton>
+             &nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Grafic</asp:LinkButton>
             </div>
           
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" CellPadding="3" DataKeyNames="id_cursa" DataSourceID="SqlDataSource1" Height="376px" Width="611px" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px">

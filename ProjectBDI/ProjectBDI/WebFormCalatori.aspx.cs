@@ -41,6 +41,19 @@ namespace ProjectBDI
             OleDbCommand command = new OleDbCommand(query, connection);
             command.Connection = connection;
             int id = 0;
+            //if (TextBox1.Text == "")
+            //{
+            //    Response.Write("<script>alert('Naspa !');</script>");
+            //}
+            
+            if (!int.TryParse(TextBox3.Text, out id) || !int.TryParse(TextBox6.Text, out id) || TextBox1.Text=="")
+            {
+                TextBox1.Text = "Camp gol!";
+                TextBox3.Text = "CNP invalid!";     
+                TextBox6.Text = "Numar de telefon invalid!";                                                                 
+            }
+            else
+            {
             try
             {
                 connection.Open();
@@ -87,6 +100,7 @@ namespace ProjectBDI
             }
 
             GridView1.DataBind();
+            }
         }
     }
 }
