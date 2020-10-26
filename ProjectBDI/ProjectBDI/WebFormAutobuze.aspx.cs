@@ -68,7 +68,7 @@ namespace ProjectBDI
                 OleDbDataReader reader = comanda.ExecuteReader();
                 while (reader.Read())
                 {
-                    TextBox2.Text += reader["numar_autobuz"] + "   " + reader["combustibil"] + Environment.NewLine;
+                    TextBox2.Text += "Autobuzul " + reader["numar_inmatriculare"] + "  are combustibil  " + reader["combustibil"] +" este marca " + reader["marca"] + Environment.NewLine;
                 }
             }
             catch (Exception ex)

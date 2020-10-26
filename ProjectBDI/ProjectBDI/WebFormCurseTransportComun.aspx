@@ -21,7 +21,10 @@
             <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Autobuze</asp:LinkButton>
              &nbsp;&nbsp;
             &nbsp;&nbsp;
-            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Grafic</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Grafic Bar</asp:LinkButton>
+             &nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Grafic Pie</asp:LinkButton>
             </div>
           
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" CellPadding="3" DataKeyNames="id_cursa" DataSourceID="SqlDataSource1" Height="376px" Width="611px" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px">
@@ -45,6 +48,18 @@
              </asp:GridView>
              <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [Curse]"></asp:SqlDataSource>
     
+              <asp:Button ID="Button1" runat="server" Text="Creare Procedura" OnClick="Button1_Click" />
+    
+              <p>
+                  <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                   &nbsp;&nbsp;
+                  <asp:Button ID="Button2" runat="server" Text="Apel procedura" OnClick="Button2_Click" />
+             </p>
+    
+              <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" Height="100px" Width="272px" BackColor="#66FFCC" ></asp:TextBox>
+        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False"  Height="147px" Width="273px">
+             </asp:GridView>
+       
               </form>
 </body>
 </html>

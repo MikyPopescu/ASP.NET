@@ -41,14 +41,19 @@ namespace ProjectBDI
             OleDbCommand command = new OleDbCommand(query, connection);
             command.Connection = connection;
             int id = 0;
-            //if (TextBox1.Text == "")
-            //{
-            //    Response.Write("<script>alert('Naspa !');</script>");
-            //}
+         
             
-            if (!int.TryParse(TextBox3.Text, out id) || !int.TryParse(TextBox6.Text, out id) || TextBox1.Text=="")
+            if (!int.TryParse(TextBox3.Text, out id) || !int.TryParse(TextBox6.Text, out id) || TextBox1.Text=="" || TextBox2.Text == "" || TextBox4.Text == "" || TextBox5.Text == "")
+
+
+
             {
                 TextBox1.Text = "Camp gol!";
+                TextBox2.Text = "Camp gol!";
+                TextBox4.Text = "Camp gol!";
+                TextBox5.Text = "Camp gol!";
+
+
                 TextBox3.Text = "CNP invalid!";     
                 TextBox6.Text = "Numar de telefon invalid!";                                                                 
             }

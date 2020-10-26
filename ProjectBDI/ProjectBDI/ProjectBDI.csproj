@@ -79,7 +79,8 @@
     <Content Include="WebFormAutobuze.aspx" />
     <Content Include="WebFormCalatori.aspx" />
     <Content Include="WebFormCurseTransportComun.aspx" />
-    <Content Include="WebFormGrafic.aspx" />
+    <Content Include="WebFormGraficBare.aspx" />
+    <Content Include="WebFormGraficPlacinta.aspx" />
     <Content Include="ZedGraph.dll" />
     <Content Include="ZedGraph.Web.dll" />
   </ItemGroup>
@@ -106,12 +107,19 @@
     <Compile Include="WebFormCurseTransportComun.aspx.designer.cs">
       <DependentUpon>WebFormCurseTransportComun.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebFormGrafic.aspx.cs">
-      <DependentUpon>WebFormGrafic.aspx</DependentUpon>
+    <Compile Include="WebFormGraficBare.aspx.cs">
+      <DependentUpon>WebFormGraficBare.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebFormGrafic.aspx.designer.cs">
-      <DependentUpon>WebFormGrafic.aspx</DependentUpon>
+    <Compile Include="WebFormGraficBare.aspx.designer.cs">
+      <DependentUpon>WebFormGraficBare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormGraficPlacinta.aspx.cs">
+      <DependentUpon>WebFormGraficPlacinta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormGraficPlacinta.aspx.designer.cs">
+      <DependentUpon>WebFormGraficPlacinta.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
